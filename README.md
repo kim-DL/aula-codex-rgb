@@ -30,6 +30,8 @@ Windows에서 USB-C 유선 AULA F108 Pro의 키별 RGB와 기본 LCD 시계를 �
 
 ## 빌드와 검사
 
+빌드 없이 사용할 Windows x64 실행 파일은 [GitHub Releases](https://github.com/kim-DL/aula-codex-rgb/releases/latest)에서 받습니다. [다운로드·설치 안내](docs/DOWNLOADS.md)를 참고하세요.
+
 PowerShell에서 저장소 루트를 작업 폴더로 사용합니다. Go가 PATH에 있어야 합니다.
 
 ```powershell
