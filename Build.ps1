@@ -27,5 +27,6 @@ try {
         $suffix = if ($Candidate) { '-candidate' } else { '' }
         Invoke-Go build -buildvcs=false -trimpath -ldflags '-s -w' -o (Join-Path $output ('aula-codex-rgb' + $suffix + '.exe')) .
         Invoke-Go build -buildvcs=false -trimpath -tags rgb_gui -ldflags '-s -w -H=windowsgui' -o (Join-Path $output ('aula-codex-rgb-background' + $suffix + '.exe')) .
+        Invoke-Go build -buildvcs=false -trimpath -ldflags '-s -w -H=windowsgui' -o (Join-Path $output ('aula-codex-rgb-setup' + $suffix + '.exe')) ./cmd/desktop-setup
     }
 } finally { Pop-Location }
