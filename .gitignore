@@ -1,0 +1,39 @@
+# Build outputs and local development dependencies
+/bin/
+/tools/
+**/bin/
+*.exe
+*.dll
+*.pdb
+*.test
+coverage.out
+
+# Runtime data, physical-test captures, user-specific backups and credentials
+**/logs/
+**/backups/
+*.log
+*.jsonl
+*.zip
+*.zip.*
+.env
+.env.*
+!.env.example
+auth.json
+hooks.json
+hooks-review.json
+settings.json
+health.json
+status.json
+control.json
+*credentials*
+*.pem
+*.key
+
+# Generated previews and editor metadata
+/preview/
+.vscode/
+.idea/
+*.tmp
+*.bak
+Thumbs.db
+Desktop.ini
